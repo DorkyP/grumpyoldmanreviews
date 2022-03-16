@@ -2,13 +2,13 @@ window.addEventListener('DOMContentLoaded', () => {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			myFunction(this);
+			addLatestMovieReviews(this);
 		}
 	};
 	xhttp.open("GET", "reviews.xml", true);
 	xhttp.send();
 });
-function myFunction(xml) {
+function addLatestMovieReviews(xml) {
 	var i;
 	var xmlDoc = xml.responseXML;
 	var table="";
@@ -30,6 +30,6 @@ function myFunction(xml) {
 					</div>
 					<!-- Divider-->
 					<hr class="my-4" />`
-  }
-  document.getElementById("latest-reviews").innerHTML = table;
+	}
+	document.getElementById("latest-reviews").innerHTML = table;
 }
