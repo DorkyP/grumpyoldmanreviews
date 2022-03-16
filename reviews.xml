@@ -1,0 +1,8 @@
+<movie-reviews>
+	<movie>
+		<id>1</id>
+		<name>"Spencer"</name>
+		<tagline>"Films don't come any weirder than this!"</tagline>
+		<published>070322</published>
+	</movie>
+</movie-reviews>
