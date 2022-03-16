@@ -11,4 +11,22 @@
 		<tagline>The chaps carry the film</tagline>
 		<published>090322</published>
 	</movie>
+	<movie>
+		<id>3</id>
+		<name>West Side Story</name>
+		<tagline>A remake of an adaption of the greatest Broadway Musical of all time - what could possibly go wrong?</tagline>
+		<published>100322</published>
+	</movie>
+	<movie>
+		<id>4</id>
+		<name>Eiffel</name>
+		<tagline>How to make the Grumpy Old Man happy</tagline>
+		<published>150322</published>
+	</movie>
+	<movie>
+		<id>5</id>
+		<name>Being the Ricardos</name>
+		<tagline>Whatever happened to that game we used to play before television was invented? It was called 'conversation.'</tagline>
+		<published>160322</published>
+	</movie>
 </movie-reviews>
