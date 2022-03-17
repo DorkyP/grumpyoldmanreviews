@@ -27,9 +27,9 @@ window.addEventListener('DOMContentLoaded', () => {
 	});
 });
 
-const template = document.createElement('template');
+const nav = document.createElement('template');
 
-template.innerHTML = `
+nav.innerHTML = `
 		<!-- Navigation-->
 		<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
 			<div class="container px-4 px-lg-5">
@@ -48,5 +48,4 @@ template.innerHTML = `
 		</nav>
 `;
 
-document.body.prepend(template.content);
-// document.body.insertBefore(template.content,document.body.header);
+document.body.prepend(nav.content);
