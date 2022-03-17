@@ -28,5 +28,5 @@ Submit a pull request:
 2. Create a branch (`git checkout -b my_branch`)
 3. Commit your changes (`git commit -am "Here's my changes"`)
 4. Push to the branch (`git push origin my_branch`)
-5. Open a [Pull Request][http://github.com/DorkyP/grumpyoldmanreviews/pulls]
+5. Open a [Pull Request](http://github.com/DorkyP/grumpyoldmanreviews/pulls)
 6. Wait patiently.
