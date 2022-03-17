@@ -18,7 +18,7 @@ Navigate to the directory containing this code, then run:
 ```
 http-server
 ```
-The website will now be available at [http://localhost:8080] in your favourite browser.
+The website will now be available at [localhost:8080](http://localhost:8080) in your favourite browser.
 
 Contributing
 ------------
@@ -28,7 +28,5 @@ Submit a pull request:
 2. Create a branch (`git checkout -b my_branch`)
 3. Commit your changes (`git commit -am "Here's my changes"`)
 4. Push to the branch (`git push origin my_branch`)
-5. Open a [Pull Request][1]
+5. Open a [Pull Request][http://github.com/DorkyP/grumpyoldmanreviews/pulls]
 6. Wait patiently.
-
-[1]: http://github.com/DorkyP/grumpyoldmanreviews/pulls
