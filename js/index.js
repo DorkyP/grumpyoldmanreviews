@@ -28,7 +28,7 @@ function addLatestMovieReviews(xml) {
 		let year = publishedDate.getFullYear()
 		prettyPublishedDate = month + " " + day + suffix + ", " + year;
 
-		var filename = title.replaceAll(' ', '-')
+		var filename = title.replaceAll(' ', '-').toLowerCase();
 		table += `<!-- Post preview-->
 					<div class="post-preview">
 						<a href="movie-reviews/` + filename + `/` + filename + `.html">
