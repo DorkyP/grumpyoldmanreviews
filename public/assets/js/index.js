@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', () => {
 			addLatestMovieReviews(this);
 		}
 	};
-	xhttp.open("GET", "reviews.xml", true);
+	xhttp.open("GET", "/public/assets/reviews.xml", true);
 	xhttp.send();
 });
 function addLatestMovieReviews(xml) {
@@ -23,7 +23,7 @@ function addLatestMovieReviews(xml) {
 		var filename = title.replaceAll(' ', '-').toLowerCase();
 		table += `<!-- Post preview-->
 					<div class="post-preview">
-						<a href="movie-reviews/` + filename + `/` + filename + `.html">
+						<a href="/public/movie-reviews/` + filename + `/` + filename + `.html">
 							<h2 class="post-title">` + title + `</h2>
 							<h3 class="post-subtitle">` + tagline + `</h3>
 						</a>
