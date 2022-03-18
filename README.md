@@ -19,6 +19,7 @@ Navigate to the directory containing this code, then run:
 http-server ./
 ```
 NOTE the `./`!!! If you don't include it, `http-server` will serve the public folder instead.
+
 The website will now be available at [localhost:8080](http://localhost:8080) in your favourite browser.
 
 Contributing
