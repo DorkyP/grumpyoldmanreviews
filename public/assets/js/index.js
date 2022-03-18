@@ -23,7 +23,7 @@ function addLatestMovieReviews(xml) {
 		var filename = title.replaceAll(' ', '-').toLowerCase();
 		table += `<!-- Post preview-->
 					<div class="post-preview">
-						<a href="/public/movie-reviews/` + filename + `/` + filename + `.html">
+						<a href="/public/movie-reviews/` + filename + `/">
 							<h2 class="post-title">` + title + `</h2>
 							<h3 class="post-subtitle">` + tagline + `</h3>
 						</a>
