@@ -606,6 +606,9 @@ header.masthead .site-heading .h1 {
   }
 }
 
+/*!
+* Grumpy Old Man specific styling. :)
+*/
 div.container {
 	display:inline-block;
 }
