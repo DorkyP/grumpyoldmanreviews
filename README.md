@@ -32,3 +32,8 @@ Submit a pull request:
 4. Push to the branch (`git push origin my_branch`)
 5. Open a [Pull Request](http://github.com/DorkyP/grumpyoldmanreviews/pulls)
 6. Wait patiently.
+
+Support
+------------
+
+Building and maintaining this website is a non-trivial task. If you are able to support, that would be amazing! Ko-fi link is right [here](https://ko-fi.com/dorkyp).
