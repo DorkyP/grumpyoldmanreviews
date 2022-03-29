@@ -2,28 +2,37 @@ window.addEventListener('DOMContentLoaded', () => {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			addLatestMovieReviews(this);
+			addLatestReviews(this);
 		}
 	};
 	xhttp.open("GET", "/public/assets/reviews.xml", true);
 	xhttp.send();
 });
-function addLatestMovieReviews(xml) {
+function addLatestReviews(xml) {
 	var i;
 	var xmlDoc = xml.responseXML;
 	var table="";
-	var x = xmlDoc.getElementsByTagName("movie");
+	var x = xmlDoc.getElementsByTagName("review");
 	for (i = x.length-1; i >= 0; i--) {
 		var title = x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
 		var tagline = x[i].getElementsByTagName("tagline")[0].childNodes[0].nodeValue;
 		var publishedDate = new Date(x[i].getElementsByTagName("published")[0].childNodes[0].nodeValue);
-
 		var prettyPublishedDate = prettyDate(publishedDate);
+		var tags = x[i].getElementsByTagName("tags")[0].childNodes[0].nodeValue;
+		var filename;
 
-		var filename = title.replaceAll(' ', '-').toLowerCase();
+		if(tags.includes("tv")) {
+			// Is TV review
+			filename = "tv-reviews/" + title.replaceAll(' ', '-').toLowerCase() + "-" + x[i].getElementsByTagName("season")[0].childNodes[0].nodeValue;
+			title += " Season " + x[i].getElementsByTagName("season")[0].childNodes[0].nodeValue;
+		} else {
+			// Is movie review
+			filename = "movie-reviews/" + title.replaceAll(' ', '-').toLowerCase();
+		}
+
 		table += `<!-- Post preview-->
 					<div class="post-preview">
-						<a href="/public/movie-reviews/` + filename + `/">
+						<a href="/public/` + filename + `/">
 							<h2 class="post-title">` + title + `</h2>
 							<h3 class="post-subtitle">` + tagline + `</h3>
 						</a>

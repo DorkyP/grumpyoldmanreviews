@@ -1,44 +1,59 @@
-<movie-reviews>
-	<movie>
+<reviews>
+	<review>
 		<id>1</id>
 		<name>Spencer</name>
 		<tagline>Films don't come any weirder than this!</tagline>
 		<published>2022-03-07</published>
-	</movie>
-	<movie>
+		<tags>movie</tags>
+	</review>
+	<review>
 		<id>2</id>
 		<name>The Power of the Dog</name>
 		<tagline>The chaps carry the film</tagline>
 		<published>2022-03-09</published>
-	</movie>
-	<movie>
+		<tags>movie</tags>
+	</review>
+	<review>
 		<id>3</id>
 		<name>West Side Story</name>
 		<tagline>A remake of an adaption of the greatest Broadway Musical of all time - what could possibly go wrong?</tagline>
 		<published>2022-03-10</published>
-	</movie>
-	<movie>
+		<tags>movie</tags>
+	</review>
+	<review>
 		<id>4</id>
 		<name>Eiffel</name>
 		<tagline>How to make the Grumpy Old Man happy</tagline>
 		<published>2022-03-15</published>
-	</movie>
-	<movie>
+		<tags>movie</tags>
+	</review>
+	<review>
 		<id>5</id>
 		<name>Being the Ricardos</name>
 		<tagline>Whatever happened to that game we used to play before television was invented? It was called 'conversation.'</tagline>
 		<published>2022-03-16</published>
-	</movie>
-	<movie>
+		<tags>movie</tags>
+	</review>
+	<review>
 		<id>6</id>
 		<name>The Father</name>
 		<tagline>Grumpy Old Man Reviews Movie About Grumpy Old Man</tagline>
 		<published>2022-03-17</published>
-	</movie>
-	<movie>
+		<tags>movie</tags>
+	</review>
+	<review>
 		<id>7</id>
 		<name>Uncharted</name>
 		<tagline>Spidey and Marky Mark go exploring</tagline>
 		<published>2022-03-18</published>
-	</movie>
-</movie-reviews>
+		<tags>movie</tags>
+	</review>
+	<review>
+		<id>8</id>
+		<name>Bridgerton</name>
+		<season>2</season>
+		<tagline>Regency-schmegency!</tagline>
+		<published>2022-03-29</published>
+		<tags>tv</tags>
+	</review>
+</reviews>
