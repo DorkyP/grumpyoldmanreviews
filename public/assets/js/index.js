@@ -21,13 +21,20 @@ function addLatestReviews(xml) {
 		var tags = x[i].getElementsByTagName("tags")[0].childNodes[0].nodeValue;
 		var filename;
 
-		if(tags.includes("tv")) {
-			// Is TV review
-			filename = "tv-reviews/" + title.replaceAll(' ', '-').toLowerCase() + "-" + x[i].getElementsByTagName("season")[0].childNodes[0].nodeValue;
-			title += " Season " + x[i].getElementsByTagName("season")[0].childNodes[0].nodeValue;
-		} else {
-			// Is movie review
-			filename = "movie-reviews/" + title.replaceAll(' ', '-').toLowerCase();
+		switch(tags) {
+			case "tv":
+				// Is TV review
+				filename = "tv-reviews/" + title.replaceAll(' ', '-').toLowerCase() + "-" + x[i].getElementsByTagName("season")[0].childNodes[0].nodeValue;
+				title += " Season " + x[i].getElementsByTagName("season")[0].childNodes[0].nodeValue;
+				break;
+			case "movie":
+				// Is movie review
+				filename = "movie-reviews/" + title.replaceAll(' ', '-').toLowerCase();
+				break;
+			case "theatre":
+				// Is theatre review
+				filename = "theatre-reviews/" + title.replaceAll(' ', '-').toLowerCase();
+				break;
 		}
 
 		table += `<!-- Post preview-->
