@@ -84,4 +84,11 @@
 		<published>2022-04-30</published>
 		<tags>movie</tags>
 	</review>
+	<review>
+		<id>13</id>
+		<name>La Traviata</name>
+		<tagline>Grumpy enjoys a night out at the opera</tagline>
+		<published>2022-05-10</published>
+		<tags>theatre</tags>
+	</review>
 </reviews>
