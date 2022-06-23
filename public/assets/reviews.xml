@@ -98,4 +98,11 @@
 		<published>2022-05-19</published>
 		<tags>movie</tags>
 	</review>
+	<review>
+		<id>15</id>
+		<name>The Lost City</name>
+		<tagline>Sandra &amp; Channing: A recipe for success</tagline>
+		<published>2022-06-24</published>
+		<tags>movie</tags>
+	</review>
 </reviews>
