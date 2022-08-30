@@ -126,4 +126,11 @@
 		<published>2022-08-12</published>
 		<tags>movie</tags>
 	</review>
+	<review>
+		<id>18</id>
+		<name>A Star Is Born</name>
+		<tagline>Before Gaga &amp; Streisand, there was Judy.</tagline>
+		<published>2022-08-30</published>
+		<tags>movie</tags>
+	</review>
 </reviews>
