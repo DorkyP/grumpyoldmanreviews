@@ -133,4 +133,11 @@
 		<published>2022-08-30</published>
 		<tags>movie</tags>
 	</review>
+	<review>
+		<id>19</id>
+		<name>Blonde</name>
+		<tagline>Superb source material, disappointing result</tagline>
+		<published>2022-10-09</published>
+		<tags>movie</tags>
+	</review>
 </reviews>
