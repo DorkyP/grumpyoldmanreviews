@@ -624,3 +624,8 @@ div.container {
 	float:left;
 	width: 50%;
 }
+
+.cover-image{
+	float:left;
+	width: 30% !important;
+}
