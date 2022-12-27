@@ -542,6 +542,13 @@ header.masthead .post-heading .meta {
 header.masthead .post-heading .meta a {
   color: #fff;
 }
+
+header.small-header {
+	margin-bottom: 3rem !important;
+  padding-top: calc(57px) !important;
+  padding-bottom: 2rem !important;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     padding-top: 12.5rem;
