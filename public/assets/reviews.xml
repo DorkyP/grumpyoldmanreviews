@@ -169,4 +169,11 @@
 		<published>2022-12-26</published>
 		<tags>tv</tags>
 	</review>
+	<review>
+		<id>24</id>
+		<name>Jesus Christ Superstar</name>
+		<tagline>The greatest school production ever</tagline>
+		<published>2023-04-02</published>
+		<tags>theatre</tags>
+	</review>
 </reviews>
